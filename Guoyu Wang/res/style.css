@@ -11,13 +11,14 @@ body, html {
 }  
   
 .header, .footer {  
-    width: 100%;  
-    text-align: center;  
-    padding: 20px 0;  
-    background: white;  
-    border-bottom: 1px solid #ccc; /* 仅对header，footer根据需要调整 */  
+    background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
 }  
-  
 .software-container {  
     width: 80%;  
     display: flex;  
